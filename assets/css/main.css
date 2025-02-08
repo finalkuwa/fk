@@ -69,7 +69,7 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 #info > .head {
     width: 100px;
     height: 100px;
-    background-image: url("../images/head.jpg");
+    background-image: url("../images/head_300.jpg");
     background-size: 100px 100px;
     border-radius: 50%;
     margin-bottom: 20px;
@@ -94,4 +94,11 @@ html, body, h1, h2, h3, h4, h5, h6, p {
     color: #1b1b1b;
     margin: 10px 0 0 0;
     line-height: 200%;
+}
+#info > .descript > .content a {
+    color: #00a2ff;
+    text-decoration: none;
+}
+#info > .descript > .content img {
+    max-width: 100%;
 }
